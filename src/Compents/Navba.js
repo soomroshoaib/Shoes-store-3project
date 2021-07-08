@@ -5,10 +5,36 @@ import { NavLink } from 'react-router-dom/cjs/react-router-dom.min'
 function Navba() {
   return (
     <div>
+    {/* <div>
       <NavLink to="/Home">Home</NavLink>
       <NavLink to="/About">About</NavLink>
       <NavLink to="/Contact">Contact</NavLink>
       <NavLink to="/Product">Product</NavLink>
+      </div> */}
+      <nav  className="main-div">
+
+      <div className="logo">
+          <h2><span>S</span>hoaib<span>s</span>oomro  </h2>
+
+          </div>
+      <div className="menu-link">
+              <ul>
+                  <ol>
+                      <NavLink to="#">Home</NavLink>
+                  </ol>
+                  <ol>
+                      <NavLink to="/About">About</NavLink>
+                  </ol>
+                  <ol>
+                      <NavLink to="/Contact">Contact</NavLink>
+                  </ol>
+                  <ol>
+                      <NavLink to="/Product">Product</NavLink>
+                  </ol>
+                
+              </ul>
+          </div>
+          </nav>
     </div>
   )
 }

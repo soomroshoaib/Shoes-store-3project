@@ -6,8 +6,12 @@ function About() {
 
   return (
     <div>
-      <h1>About js </h1>
-     
+      
+      <section className="hero-section">
+              <p>Welcom to </p>
+              <h2>Shoaib soomro</h2>
+              <h1>About js </h1>
+          </section>
     </div>
   )
 }

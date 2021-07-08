@@ -21,13 +21,13 @@ function Nav() {
                       <NavLink href="#">Home</NavLink>
                   </ol>
                   <ol>
-                      <NavLank href="#">About</NavLank>
+                      <NavLink href="#">About</NavLink>
                   </ol>
                   <ol>
-                      <NavLank href="#">Contact</NavLank>
+                      <NavLink href="#">Contact</NavLink>
                   </ol>
                   <ol>
-                      <NavLank href="#">Service</NavLank>
+                      <NavLink href="#">Service</NavLink>
                   </ol>
                 
               </ul>
@@ -35,28 +35,28 @@ function Nav() {
           <div className="social-media">
                <ul className="social-media-desktop">
                    <li>
-                      <NavLank href="" target="shoaib">
+                      <NavLink href="" target="shoaib">
                       <FaFacebookSquare className="facebook" />
-                      </NavLank>
+                      </NavLink>
                    </li>
                    <li>
-                      <NavLank href="" target="shoaib">
+                      <NavLink href="" target="shoaib">
                       <FaInstagramSquare  className="instagram"/>
-                      </NavLank>
+                      </NavLink>
                    </li>
                    <li>
-                      <NavLank href="" target="shoaib">
+                      <NavLink href="" target="shoaib">
                       <FaWhatsapp className="whatsapp" />
-                      </NavLank>
+                      </NavLink>
                    </li>
                      
                </ul>
                {/* GiHamburgerMenu */}
 
                <div className="Hambarger-menu">
-               <NavLank href="#"> 
+               <NavLink href="#"> 
                   <GiHamburgerMenu />
-               </NavLank>
+               </NavLink>
 
                </div>
           </div>
